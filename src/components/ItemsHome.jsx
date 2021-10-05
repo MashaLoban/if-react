@@ -20,7 +20,7 @@ const ItemsHome = (props) => {
   );
 };
 
-// ItemsHome.PropTypes = (
-//     data: PropTypes.arrayOf(PropTypes.object).isRequired,
-// )
+ItemsHome.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
 export default ItemsHome;
